@@ -3,8 +3,11 @@ package a;
 public class Person {
 	int id;
 	String name;
-	boolean ismale;
+	char sex;
 	
-	public void  
+	public Person(int id,String name,char sex){
+	this.id=id;
+	this.name=name;
+	this.sex=sex;}
 
 }

@@ -10,7 +10,7 @@ public class Student extends Person{
 		super(id,name,sex);
 		this.major=major;
 	public String toString(){
-		return '学生信息：'姓名'+name+'学号'+id+'性别'+sex;
+		return '学生信息：'姓名'+name+'学号'+id+'性别'+sex+'专业'+major;
 	}
 
 

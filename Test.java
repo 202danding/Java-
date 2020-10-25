@@ -12,8 +12,8 @@ public class Test {
     System.out.println('教师信息');
     System.out.println(c);
     System.out.println(d);
-    Course e=new COurse('语文',1,'10',1,1);
-    Course f=new COurse('英语',2,'11',2,2);
+    Course e=new COurse('语文',1,'101',7.50,3);
+    Course f=new COurse('英语',2,'102',9.40,4);
     System.out.println('课程信息');
     System.out.println(e);
     System.out.println(f);

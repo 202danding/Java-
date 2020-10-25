@@ -1,13 +1,13 @@
 package a;
-
+//å­ç±»
 public class Teacher extends Person {
-	int id;
-	String tname;
-	Course course;
-	public Teacher(int id,String tname){
-		this.id = id;
-		this.tname=tname;
-		//ĞŞ¸Ä»òÊÇÌí¼ÓÊôĞÔ
+	String course;
+	public Teacher(int id,String name,char sex,String course){
+		super(id,name,sex)
+		this.course = course;
+	}
+	public String toString(){
+		return'æ•™å¸ˆä¿¡æ¯ï¼š'+'æ•™å¸ˆç¼–å·'+id+'æ•™å¸ˆå§“å'+'name'+'æ€§åˆ«'+sex+'è¯¾ç¨‹'+course;
 		
 		
 	}

@@ -2,19 +2,15 @@ package a;
 
 public class Course {
 	 private String coursename;
-	 int courseid;
-	// Teacher teacher;
-	 float  credit;
+	int courseid;
+	float  credit;
 	 float time;
 	 String place;
-	//Student student;
-	 public Courses(int courseid,String coursename,float time,String place,float credit){
-		 //super();
+	 public Courses(String coursename,int courseid,String place,float time,float credit){
 		 this.courseid=courseid;
 		 this.time=time;
 		 this.place=place;
 		 this.coursename=coursename;
-		 //this.teacher=teacher;
 		 this.credit=credit;
 	 }	 
 //显示已选课程

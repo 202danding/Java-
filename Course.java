@@ -3,19 +3,23 @@ package a;
 public class Course {
 	 private String coursename;
 	 int courseid;
-	 Teacher teacher;
+	// Teacher teacher;
 	 float  credit;
-	 Student student;
-	 public Course(int courseid,String coursename,Teacher teacher,float credit){
-		 super();
+	 float time;
+	 String place;
+	//Student student;
+	 public Courses(int courseid,String coursename,float time,String place,float credit){
+		 //super();
 		 this.courseid=courseid;
+		 this.time=time;
+		 this.place=place;
 		 this.coursename=coursename;
-		 this.teacher=teacher;
+		 //this.teacher=teacher;
 		 this.credit=credit;
 	 }	 
-//��ʾ��ѡ�γ�
-	 public void displayCourse();{
-		 System.out.println("ѧ��"+this.sname+"��ѡ�γ��У�");
+//显示已选课程
+	 public String toString(){
+		 return '课程名称'+courseaname+'课程编号:'+courseid+'课程时间'+time+'教室:'+place+'学分'+credit;
 		 
 	 }
 }

@@ -1,6 +1,6 @@
 package a;
 
-public class Course {
+public class Courses {
 	 private String coursename;
 	 int courseid;
 	 Teacher teacher;
@@ -13,9 +13,9 @@ public class Course {
 		 this.teacher=teacher;
 		 this.credit=credit;
 	 }	 
-//ÏÔÊ¾ÒÑÑ¡¿Î³Ì
+//æ˜¾ç¤ºå·²é€‰è¯¾ç¨‹
 	 public void displayCourse();{
-		 System.out.println("Ñ§Éú"+this.sname+"ËùÑ¡¿Î³ÌÓĞ£º");
+		 System.out.println("å­¦ç”Ÿ"+this.sname+"æ‰€é€‰è¯¾ç¨‹æœ‰ï¼š");
 		 
 	 }
 }
